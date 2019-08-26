@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D9489C3F-5D8A-FC3F-E8CE-20746794793B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CanvasScript.cs">
+    <Files>
+      <File FileName="Assets/TextScript.cs" Line="17" Column="6" />
+      <File FileName="Assets/CanvasScript.cs" Line="18" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BeanieHatCounter" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CanvasScript.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8ffc09b5-6a4e-4531-b87e-416b1264cee4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
