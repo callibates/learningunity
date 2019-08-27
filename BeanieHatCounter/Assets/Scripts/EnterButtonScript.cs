@@ -8,6 +8,7 @@ public class EnterButtonScript : MonoBehaviour
 {
 	public Text enterField;
 	public static int rowsNeeded = 0;
+
     // Start is called before the first frame update
     public void Start()
     {

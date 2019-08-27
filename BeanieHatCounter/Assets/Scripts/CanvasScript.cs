@@ -18,21 +18,22 @@ public class CanvasScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown) { 
-        Debug.Log("Pressed primary button.");
+        
+        if (Input.anyKeyDown) {
+
+            Debug.Log("Pressed primary button.");
             int rowsNeeded = ebScript.GetRowsNeeded();
             Text text = fooText.GetComponent<Text>();
             if (counter < rowsNeeded)
             {
                 counter++;
-                
+
                 text.text = counter + "";
             }
             else
             {
                 text.text = "!!!!";
             }
-        
         }
     }
 

@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{D9489C3F-5D8A-FC3F-E8CE-20746794793B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnterButtonScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NewFile.txt">
     <Files>
       <File FileName="Assets/Scripts/InputFieldScript.cs" Line="10" Column="1" />
       <File FileName="Assets/Scripts/InputFieldScript.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/EnterButtonScript.cs" Line="35" Column="21" />
+      <File FileName="Assets/Scripts/EnterButtonScript.cs" Line="28" Column="47" />
       <File FileName="Assets/Scripts/TextScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CanvasScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CanvasScript.cs" Line="33" Column="36" />
+      <File FileName="Assets/Scripts/BackButtonScript.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/NewFile.txt" Line="90" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +15,7 @@
           <Node name="BeanieHatCounter" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="EnterButtonScript.cs" selected="True" />
+                <Node name="NewFile.txt" selected="True" />
               </Node>
             </Node>
           </Node>
