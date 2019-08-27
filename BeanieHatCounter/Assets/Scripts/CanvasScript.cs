@@ -7,11 +7,11 @@ public class CanvasScript : MonoBehaviour
 {
     public GameObject fooText;
     private int counter;
+    public EnterButtonScript ebScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        
         counter = 0;
     }
 
@@ -20,16 +20,20 @@ public class CanvasScript : MonoBehaviour
     {
         if (Input.anyKeyDown) { 
         Debug.Log("Pressed primary button.");
-        counter++;
-        Text text = fooText.GetComponent<Text>();
-        text.text = counter + "";
+            int rowsNeeded = ebScript.GetRowsNeeded();
+            Text text = fooText.GetComponent<Text>();
+            if (counter < rowsNeeded)
+            {
+                counter++;
+                
+                text.text = counter + "";
+            }
+            else
+            {
+                text.text = "!!!!";
+            }
+        
         }
-    }
-    void updateText()
-    {
-        Text text = GetComponentInChildren<Text>();
-
-        text.text = "blah";
     }
 
 }

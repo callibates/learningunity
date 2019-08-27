@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class EnterButtonScript : MonoBehaviour
 {
 	public Text enterField;
-	static int rowsNeeded;
+	public static int rowsNeeded = 0;
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
 		rowsNeeded = 0;
         Button btn = this.GetComponent<Button>();
@@ -17,21 +17,24 @@ public class EnterButtonScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         
     }
 
-    void onClick()
+    public void onClick()
     {
 		GetNum();
         SceneManager.LoadScene("SampleScene");
     }
 
-    void GetNum()
+    public void GetNum()
 	{
 		string stringVersion = enterField.text.ToString();
 		rowsNeeded = int.Parse(stringVersion);
-		Debug.Log("num is" + rowsNeeded);
+	}
+    public int GetRowsNeeded()
+	{
+		return rowsNeeded;
 	}
 }
